@@ -333,7 +333,7 @@ div.autor{
 .box-noticia{
     background-color: white;
     padding: 15px ;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     border-radius: 20px;
 }
 .mini-img{
@@ -357,7 +357,7 @@ footer{
 footer.fixed{
 	position: fixed;
 	bottom: 0;
-	width: 100%;
+    width: 100%;
 }
 /*pagina 404*/
 section.erro {
@@ -464,6 +464,86 @@ section.slider div.slider-sigle{
 span.active-slider{
     background-color: #ccc;
 }
+/*sistema de comentarios*/
+h6{
+    background-color: #32009E;
+    margin-bottom: 10px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+h4{
+    color: #d84315;
+    margin-bottom: 10px;
+}
+h4 a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(8, 212, 8);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+form#comentario{
+    width: 100%;
+
+}
+form#comentario div.form-container{
+    padding: 10px;
+
+}
+form#comentario input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    
+}
+form#comentario label{
+    width: 100%;
+    padding-top: 10px;
+
+}
+form#comentario textarea{
+    width: 100%;
+    margin-top: 5px;
+    resize: none;
+    padding: 10px;
+}
+form#comentario input[type=submit]{
+    background-color: green;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+div.resposta{
+    margin-top: 15px;
+}
+div.box-comentario{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #ccc;
+    margin-top: 5px;
+}
+div.box-comentario p{
+    padding: 5px;
+    color: #444;
+    margin: 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+div.box-comentario h5{
+    background-color: #240d57;
+    border-radius: 20px;
+    padding: 5px 15px;
+    min-width: 300px;
+   color: white;
+   border-bottom: none;
+   text-align:left ;
+   font-size: 18px;
+   margin: 0;
+   font-weight: lighter;
+}
+
 /*expancivo*/
 @media screen and (max-width: 780px){
     .w50{

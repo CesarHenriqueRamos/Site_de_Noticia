@@ -42,6 +42,7 @@
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>?cat=">Home</a></li>
+					<li><a href="<?php echo INCLUDE_PATH; ?>painel/">Login</a></li>
 				</ul>
 			</nav>
 			 <nav class="mobile right">
